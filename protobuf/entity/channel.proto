@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option go_package = "github.com/Sujin1135/channel-collector-interface/protobuf";
+option java_package = "io.contents.collector.grpc";
+option java_multiple_files = true;
+
+package io.contents.collector;
+
+message Channel {
+  string channelId = 1;
+}
