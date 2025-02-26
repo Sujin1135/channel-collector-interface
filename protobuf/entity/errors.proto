@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option go_package = "github.com/Sujin1135/channel-collector-interface/protobuf/entity";
+option go_package = "github.com/Sujin1135/channel-collector-interface/entity";
 option java_package = "io.contents.collector.grpc.entity";
 option java_multiple_files = true;
 
