@@ -3,7 +3,7 @@ syntax = "proto3";
 import "entity/channel.proto";
 import "entity/errors.proto";
 
-option go_package = "github.com/Sujin1135/channel-collector-interface/service";
+option go_package = "github.com/Sujin1135/channel-collector-interface/protobuf/service";
 option java_package = "io.contents.collector.grpc.service";
 option java_multiple_files = true;
 
