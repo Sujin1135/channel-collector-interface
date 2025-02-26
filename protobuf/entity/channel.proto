@@ -8,4 +8,20 @@ package io.contents.collector;
 
 message Channel {
   string channelId = 1;
+  string title = 2;
+  string description = 3;
+  bool is_family_safe = 4;
+  string keywords = 5;
+  repeated string thumbnails = 6;
+  repeated string links = 7;
+  int32 view_count = 8;
+  int32 total_subscriber = 9;
+  int32 total_video = 10;
+  Joined jointed = 11;
+
+  message Joined {
+    int32 year = 1;
+    int32 month = 2;
+    int32 date = 3;
+  }
 }
